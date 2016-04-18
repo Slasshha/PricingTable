@@ -1,0 +1,42 @@
+.note-date {
+    font-size:0.7em;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.package-container {
+	display: inline-block;
+	margin: 25px;
+	margin-top: 0px;
+	border-radius: 5px;
+    background: white;
+    text-align: center;
+    height: 450px;
+}
+
+.container-header {
+	background-color: violet;
+	text-align: center;
+
+
+}
+
+.container {
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+body {
+	background-color: #fdf2fd;
+}
+
+li {
+	border-bottom: 1px grey;
+}
+
+h1, p {
+	text-align: center;
+}
