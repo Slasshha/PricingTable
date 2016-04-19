@@ -1,13 +1,70 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
 
 .package-container {
-	display: inline-block;
 	margin: 25px;
 	margin-top: 0px;
 	border-radius: 5px;
     background: white;
     text-align: center;
-    height: 450px;
-    position:relative;
+    height: 550px;
+    width: 300px;
+    
+}
+
+.package-wrapper {
+	display: inline-block;
+	position:relative;
+    vertical-align: top;
+
 }
 
 .container-header {
@@ -17,19 +74,23 @@
 
 .container {
 	text-align: center;
+	padding: 20px;
 }
 
 .list {
 	list-style-type: none;
+	color: grey;
 }
 
 .page {
-	background-color: #fdf2fd;
+	background-color: #FDF8FF;
 }
 
 .list-item {
 	border-bottom: 1px solid grey;
-	margin-right: 35px;
+	margin: 15px 35px;
+	padding-bottom: 10px;
+	
 }
 
 .users, .header, .cliche-tag {
@@ -43,18 +104,64 @@
 
 .header {
 	color: white;
-	background-color: violet;
+	background-color: #912CEE;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Montserrat;
+	padding: 16px;
 }
 
 .sign-up {
 	background-color: white;
 	font-family: Sintony;
-	color: #DDA0DD;
+	color: #912CEE;
 	position: absolute;
-    bottom: 20px;
-   
+    bottom: 80px;
+    right: 75px;
+    padding: 15px 70px;
+    border: 1px solid #912CEE;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 15px;
+
+
+}
+
+.users {
+	color: grey;
+	font-size: 18px;
+   /* position: absolute;
+    bottom: 20px;*/
+
 }
 
 .text {
+	padding: 5px 10px;
+	color: grey;
+	font-weight: bold;
+	font-family: Sintony;
+}
+
+.main-header {
+	color: #912CEE;
+	padding-top: 60px;
+}
+
+
+ .cliche-tag {
+	color: #912CEE;
 	padding: 10px;
+}
+
+.pic {
+	padding-left: 5px;
+}
+
+.white {
+	color: white;
+	background-color: #912CEE;
+}
+
+.number {
+	color: #912CEE;
 }
