@@ -3,165 +3,246 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
-
-
-
 .package-container {
-	margin: 25px;
-	margin-top: 0px;
-	border-radius: 5px;
+    margin: 15px;
+    margin-top: 0px;
+    border-radius: 5px;
     background: white;
     text-align: center;
-    height: 550px;
-    width: 300px;
-    
+    height: 600px;
+    width: 400px;
 }
-
 .package-wrapper {
-	display: inline-block;
-	position:relative;
+    display: inline-block;
+    position: relative;
     vertical-align: top;
-
 }
-
 .container-header {
-	background-color: violet;
-	text-align: center;
+    text-align: center;
 }
-
 .container {
-	text-align: center;
-	padding: 20px;
+    text-align: center;
+    padding: 30px;
 }
-
 .list {
-	list-style-type: none;
-	color: grey;
+    list-style-type: none;
+    color: grey;
 }
-
 .page {
-	background-color: #FDF8FF;
+    background-color: #FDF8FF;
 }
-
 .list-item {
-	border-bottom: 1px solid grey;
-	margin: 15px 35px;
-	padding-bottom: 10px;
-	
+    border-bottom: 1px solid #d3d3d3;
+    margin: 15px 53px;
+    padding-bottom: 10px;
+    font-family: Montserrat;
+    font-size: 15px;
+    color: #d3d3d3;
 }
-
-.users, .header, .cliche-tag {
-	text-align: center;
+.list-item:last-child {
+    border-bottom: none;
 }
-
- .main-header, .cliche-tag {
-	color: #DDA0DD ;
-	text-align: center;
+.users,
+.header,
+.cliche-tag {
+    text-align: center;
 }
-
+.main-header,
+.cliche-tag {
+    color: #DDA0DD;
+    text-align: center;
+    font-family: Sintony;
+}
 .header {
-	color: white;
-	background-color: #912CEE;
-	font-size: 20px;
-	font-weight: bold;
-	font-family: Montserrat;
-	padding: 16px;
+    color: white;
+    background-color: #7A61AB;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Montserrat;
+    padding: 16px;
+    border-radius: 5px;
 }
-
 .sign-up {
-	background-color: white;
-	font-family: Sintony;
-	color: #912CEE;
-	position: absolute;
+    background-color: white;
+    font-family: Montserrat;
+    color: #7A61AB;
+    position: absolute;
     bottom: 80px;
-    right: 75px;
-    padding: 15px 70px;
-    border: 1px solid #912CEE;
+    right: 96px;
+    padding: 15px 84px;
+    border: 1px solid #7A61AB;
     border-radius: 3px;
     font-weight: bold;
     font-size: 15px;
-
-
 }
-
 .users {
-	color: grey;
-	font-size: 18px;
-   /* position: absolute;
+    color: #7A61AB;
+    font-size: 18px;
+    font-family: Sintony;
+    /* position: absolute;
     bottom: 20px;*/
-
 }
-
 .text {
-	padding: 5px 10px;
-	color: grey;
-	font-weight: bold;
-	font-family: Sintony;
+    padding: 5px 20px;
+    color: grey;
+    font-weight: bold;
+    font-family: Montserrat;
 }
-
+.top {
+    margin-top: 35px;
+}
+.bottom {
+    margin-bottom: 35px;
+}
 .main-header {
-	color: #912CEE;
-	padding-top: 60px;
+    color: #7A61AB;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: 30px;
 }
-
-
- .cliche-tag {
-	color: #912CEE;
-	padding: 10px;
+.cliche-tag {
+    color: #7A61AB;
+    padding: 10px 20px;
+    font-size: 19px;
 }
-
 .pic {
-	padding-left: 5px;
+    padding-left: 5px;
 }
-
 .white {
-	color: white;
-	background-color: #912CEE;
+    color: white;
+    background-color: #7A61AB;
 }
-
 .number {
-	color: #912CEE;
+    color: #7A61AB;
+    font-family: Montserrat;
+    font-size: 18px;
+}
+.price {
+    font-size: 29px;
+    color: #60c2b9;
 }
